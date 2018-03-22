@@ -15,9 +15,10 @@
             <fileMode>0755</fileMode>
             <excludes>
               <exclude>pom.xml</exclude>
+              <exclude>.looper.yml</exclude>
               <exclude>./assembly/**</exclude>
               <exclude>./target/**</exclude>
-           </excludes>
+            </excludes>
         </fileSet>
     </fileSets>
 
