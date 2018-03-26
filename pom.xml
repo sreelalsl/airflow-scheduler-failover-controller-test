@@ -13,6 +13,13 @@
     <mvn.assembly.plugin.version>2.4</mvn.assembly.plugin.version>
   </properties>
 
+  <scm>
+    <connection>scm:git:https://github.com/sreelalsl/airflow-scheduler-failover-controller-test.git</connection>
+    <developerConnection>scm:git:https://github.com/sreelalsl/airflow-scheduler-failover-controller-test.git</developerConnection>
+    <url>https://github.com/sreelalsl/airflow-scheduler-failover-controller-test.git</url>
+    <tag>HEAD</tag>
+   </scm>
+   
   <build>
     <plugins>
       <plugin>
@@ -35,6 +42,15 @@
           </descriptors>
         </configuration>
       </plugin>
+
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+      </plugin>
+
+
     </plugins>
   </build>
 
