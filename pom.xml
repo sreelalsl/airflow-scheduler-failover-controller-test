@@ -4,7 +4,7 @@
 
   <groupId>airflow.test</groupId>
   <artifactId>scheduler_failover_controller</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3-SNAPSHOT</version>
 
   <packaging>pom</packaging>
   <properties>
@@ -15,7 +15,7 @@
     <connection>scm:git:https://github.com/sreelalsl/airflow-scheduler-failover-controller-test.git</connection>
     <developerConnection>scm:git:https://github.com/sreelalsl/airflow-scheduler-failover-controller-test.git</developerConnection>
     <url>https://github.com/sreelalsl/airflow-scheduler-failover-controller-test.git</url>
-    <tag>v1.0.2</tag>
+    <tag>HEAD</tag>
    </scm>
    
   <build>
